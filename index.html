@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title> Register </title>
+    <style>
+        body {
+            background-color: #313d42;
+        }
+        
+        .main-container {
+            height: 97vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .input-box {
+            padding: 1rem;
+        }
+        
+        .input.control {
+            height: 3rem;
+            width: 20rem;
+            border: 0px;
+            background-color: #313d42;
+            border-bottom: 1px solid #898989;
+            ;
+        }
+        
+        .btn {
+            height: 3rem;
+            width: 20rem;
+            background-color: #35f964;
+            border: 0px;
+            border-radius: 5px;
+            color: white;
+        }
+        
+        .btn:hover {
+            color: white;
+            background-color: #10a724;
+        }
+        
+        .input-radio {
+            margin-left: -7rem;
+        }
+        
+        .anchor {
+            color: #898989;
+            text-decoration: none;
+        }
+        
+        #register {
+            font-family: cursive;
+            font-size: 3rem;
+            font-style: italic;
+            color: #898989;
+        }
+        
+        #label {
+            color: #898989;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <span id="register">Register</span>
+        <div class="input-box">
+            <input type="text" class="input control" placeholder="Username">
+        </div>
+        <div class="input-box">
+            <input type="password" class="input control" placeholder="Password">
+        </div>
+        <div class="input-box">
+            <input type="email" class="input control" placeholder="E-mail Address">
+        </div>
+        <div>
+            <input type="radio" class="input-radio"> <label id="label">Accept rules and conditions</label>
+        </div>
+        <div class="input-box">
+            <button class="btn">Register</button>
+        </div>
+        <div class="input-box">
+            <a href="4A_01_Login.html" class="anchor"> Already have an account?</a>
+        </div>
+    </div>
+</body>
+
+</html>
